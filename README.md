@@ -9,16 +9,16 @@ Embark on an immersive journey through our university's vibrant campus from the 
 **Interactive Webpage:**
 
 Start your journey on our dedicated webpage, where you'll find comprehensive information about our university, its history, and the various departments it houses.
-User-friendly interface for easy navigation and a seamless experience.
+User-friendly interface for easy navigation and a seamless experience. <br>
 
 **Login and Admin Portal:**
 
 For enhanced control and personalized experiences, users can log in to their accounts.
-Admins have access to a secure portal where they can manage content, update information, and monitor user engagement.
+Admins have access to a secure portal where they can manage content, update information, and monitor user engagement.<br>
 **360-Degree Virtual Tour:**
 
 Dive into the heart of our campus with stunning 360-degree images, providing a real-life feel of the surroundings.
-Explore key landmarks, recreational areas, and study spaces, all from the convenience of your device.
+Explore key landmarks, recreational areas, and study spaces, all from the convenience of your device.<br>
 **Department Exploration:**
 
 Each department is meticulously captured in a 360-degree format, allowing prospective students and visitors to virtually step inside lecture halls, labs, and communal spaces.
@@ -36,9 +36,9 @@ Detailed descriptions accompany each department, offering insights into academic
 3. Explore departments and campus landmarks by clicking on interactive hotspots within the 360-degree images.<br>
 # Benefits:
 
-Accessibility: Prospective students, parents, and anyone interested in our university can explore the campus remotely.
-Engagement: Detailed descriptions and immersive visuals provide a comprehensive overview of campus life.
-Innovation: Embrace the future of campus tours with cutting-edge technology.
+Accessibility: Prospective students, parents, and anyone interested in our university can explore the campus remotely. <br>
+Engagement: Detailed descriptions and immersive visuals provide a comprehensive overview of campus life.<br>
+Innovation: Embrace the future of campus tours with cutting-edge technology.<br>
 
 # Conclusion:
 
