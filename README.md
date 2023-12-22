@@ -4,12 +4,13 @@
 
 Embark on an immersive journey through our university's vibrant campus from the comfort of your own device with our Virtual Campus Exploration Platform. This innovative project combines cutting-edge technology, stunning 360-degree images, and user-friendly design to offer an unparalleled experience.
 
-#Features:
+# Features:
 
 **Interactive Webpage:**
 
 Start your journey on our dedicated webpage, where you'll find comprehensive information about our university, its history, and the various departments it houses.
 User-friendly interface for easy navigation and a seamless experience.
+
 **Login and Admin Portal:**
 
 For enhanced control and personalized experiences, users can log in to their accounts.
@@ -20,7 +21,7 @@ Dive into the heart of our campus with stunning 360-degree images, providing a r
 Explore key landmarks, recreational areas, and study spaces, all from the convenience of your device.
 **Department Exploration:**
 
-Each department is meticulously captured in 360-degree format, allowing prospective students and visitors to virtually step inside lecture halls, labs, and communal spaces.
+Each department is meticulously captured in a 360-degree format, allowing prospective students and visitors to virtually step inside lecture halls, labs, and communal spaces.
 Detailed descriptions accompany each department, offering insights into academic programs, faculty members, and unique features.
 # Screenshots:
 ![1689415734204](https://github.com/Hamza12378/CUI-Virtual-Campus-Tour/assets/111439617/b63e1f6b-65ec-4b20-be39-ca3a46cd7698)
@@ -38,6 +39,7 @@ Detailed descriptions accompany each department, offering insights into academic
 Accessibility: Prospective students, parents, and anyone interested in our university can explore the campus remotely.
 Engagement: Detailed descriptions and immersive visuals provide a comprehensive overview of campus life.
 Innovation: Embrace the future of campus tours with cutting-edge technology.
+
 # Conclusion:
 
 Our Virtual Campus Exploration Platform redefines the traditional campus tour, offering an engaging and informative experience for all users. Whether you're a prospective student or simply curious about our university, we invite you to embark on this virtual journey and discover the essence of our campus community.
