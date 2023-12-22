@@ -1,0 +1,267 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'css/landingpage.css' %}">
+    <title>Practice</title>
+  
+  </head>
+  <body>
+    <!--navbar and picture-->
+    <div class="banner">
+      <div class="navbar">
+       
+        <img src="{%static '/img/1.jpg'%}" class="logo" />
+       
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="{%url 'logout'%}" class="btn btn-primary" >Logout</a></li>
+          
+        </ul>
+      </div>
+      <div class="content">
+        <h1>COMSATS UNIVERSITY ISLAMBAD,SAHIWAL CAMPUS</h1>
+        <h3>Explore the Campus Virtually</h3>
+      
+      </div>
+      <div class="button">
+        <a href={%url 'cuivirtual'%} class="btn">Take a guided Tour</a>
+      
+      </div>
+    </div>
+    <div class="beforeabout">
+
+   
+
+      <a class="et_pb_button" title="Relevant Title" href="{%url 'facts'%}">Facts and History</a>
+      <a class="et_pb_button" title="Relevant Title" href="{%url 'ranking'%}">Ranking</a>
+      <a  class="et_pb_button" title="Relevant Title" href="{%url 'visitorsinfo'%}">Visitors Information</a>
+      <a id='prospects' class="et_pb_button" title="Relevant Title" href="{%url 'prospectus'%}">Prospectus</a>
+    
+    </div>
+    <br><br>
+    <!--About Campus-->
+
+    <div class="about">
+       
+      <h1 class="cool-heading" style='width:1480px'>About Campus</h1>
+        <br>
+        <p style='width:1520px'><br>
+        COMSATS University Islamabad, Sahiwal campus is situated half-way
+        between Lahore and Multan on <br />COMSATS Road off G.T Road Sahiwal,
+        was formally inaugurated on September 23, 2006.
+        <br>
+        <br>
+      </p>
+    </div>
+    <div class="container">
+      <div class="left">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/Xl6db-WMuE0?controls=0&rel=0&autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="right">
+        <h5>
+          <b>COMSATS University Islamabad, Sahiwal campus </b> is situated
+          half-way between Lahore and Multan on COMSATS Road off G.T Road
+          Sahiwal, was formally inaugurated on September 23, 2006. The campus is
+          purpose built and is spread over area of 36 acres on land.
+          <br /><br />
+
+          CUI Sahiwal is committed to provide state of the art training and
+          education to our students and prepare them for successful career in
+          their respective fields. Our mission is to encourage learning and
+          promote research activities in order to facilitate our students to
+          fulfill their aims and aspirations objectively.
+        </h5>
+      </div>
+    </div>
+    <!---Gallery-->
+    <div class="gallery">
+      <div class="heading">
+        <div class="about">
+
+          <h1 class="cool-heading" style='width:1480px'>Gallery </h1>
+          <br>
+          <p style='width:1520px'><br>
+            Do you have any questions? Please do not hesitate to
+            contact us directly.<br>Our team will come back to you within
+            a matter of hours to help you <br> <br>
+          </p>
+          <br>
+        </div>
+      </div>
+      <div class="box">
+        <div class="dream">
+          <img src="{%static '/img/campus.jpg'%}" class="log" />
+          <img src="{%static '/img/campus1.jpg'%}" class="log" />
+          <img src="{%static '/img/campus3.jpg'%}" class="log" />
+          <img src="{%static '/img/campus4.jpg'%}" class="log" />
+          <img src="{%static '/img/campus5.jpg'%}" class="log" />
+      
+        </div>
+
+        <div class="dream">
+          <img src="{%static '/img/campus6.jpg'%}" class="log" />
+          <img src="{%static '/img/campusmasjid.jpg'%}" class="log" />
+          <img src="{%static '/img/campus7.jpg'%}" class="log" />
+          <img src="{%static '/img/campus8.jpg'%}" class="log" />
+          <img src="{%static '/img/campus9.jpg'%}" class="log" />
+    
+        </div>
+
+        <div class="dream">
+          <img src="{%static '/img/campuslibrary.jpg'%}" class="log" />
+          <img src="{%static '/img/campusstudy.jpg'%}" class="log" />
+          <img src="{%static '/img/campus.jpg'%}" class="log" />
+          <img src="{%static '/img/campus4.jpg'%}" class="log" />
+          <img src="{%static '/img/campus6.jpg'%}" class="log" />
+        
+        </div>
+      </div>
+<br><br>
+      <!--vision one-->
+      <div class="about">
+        <h1 class="cool-heading" style='width:1480px'> VISION </h1><br>
+        <p style='width:1520px'> <br>
+          COMSATS University Islamabad, Sahiwal campus is situated half-way
+          between Lahore and Multan on <br />COMSATS Road off G.T Road Sahiwal,
+          was formally inaugurated on September 23, 2006. <br>
+          <br>
+        </p>
+        
+      </div>
+      <div class="hovercards">
+        <div class="box">
+            <div class="imgBox">
+              <img src="{%static '/img/rector.jpg'%}" class="log" />
+            </div>
+            <div class="hovercarddescription">
+                <h2>Rector</br>
+                <span>Prof. Dr. Tabassum Afzal</span></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+              <img src="{%static '/img/founderrector1.jpg'%}" class="log" />
+                
+            </div>
+            <div class="hovercarddescription">
+                <h2>Founded Rector</br>
+                <span>Dr. Syed Muhammad Junaid Zaidi</span></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+              <img src="{%static '/img/dirl.jpg'%}" class="log" />
+            </div>
+            <div class="hovercarddescription">
+                <h2>Director</br>
+                <span>Prof. Dr. Nazir Ahmad Zafar</span></h2>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <!---footer-->
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">Something</h1>
+
+        <h2>Contact</h2>
+
+        <address>
+          5534 Somewhere In. The World 22193-10212<br />
+
+          <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+        </address>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Media</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Online</a>
+            </li>
+
+            <li>
+              <a href="#">Print</a>
+            </li>
+
+            <li>
+              <a href="#">Alternative Ads</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Technology</h2>
+
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Hardware Design</a>
+            </li>
+
+            <li>
+              <a href="#">Software Design</a>
+            </li>
+
+            <li>
+              <a href="#">Digital Signage</a>
+            </li>
+
+            <li>
+              <a href="#">Automation</a>
+            </li>
+
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+
+            <li>
+              <a href="#">IoT</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2019 Something. All rights reserved.</p>
+
+        <div class="legal__links">
+          <span
+            >Made with <span class="heart">♥</span> remotely from Anywhere</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

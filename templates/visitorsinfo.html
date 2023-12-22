@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'css/visitorsinfo.css' %}">
+    <title>Visitors Info</title>
+
+  </head>
+  <body>
+    <!--navbar and picture-->
+    <div class="banner">
+      <div class="navbar">
+        <img src="{%static '/img/1.jpg' %}" class='logo' />
+        <ul>
+          <li class="active"><a href="{%url 'home'%}">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Us Moment</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>COMSATS UNIVERSITY ISLAMBAD,SAHIWAL CAMPUS</h1>
+        <h3>Explore the Campus Virtually</h3>
+      </div>
+      <div class="button">
+        <a href={%url 'cuivirtual'%} class="btn">Take a guided Tour</a>
+      </div>
+    </div>
+    
+
+    <div class="beforeabout">
+      <a class="et_pb_button" title="Relevant Title" href="{%url 'facts'%}">Facts and History</a>
+      <a class="et_pb_button" title="Relevant Title" href="{%url 'ranking'%}">Ranking</a>
+      <a   id='visits'  class="et_pb_button" title="Relevant Title" href="{%url 'visitorsinfo'%}">Visitors Information</a>
+      <a  class="et_pb_button" title="Relevant Title" href="{%url 'prospectus'%}">Prospectus</a>
+   
+
+
+    </div>
+    <br><br>
+
+    <div class="work">
+      <div class="left">
+        <br><br>
+        <h2 style="font-size: 34px; word-spacing: normal;color: #401c58;text-decoration: underline;">Visitors Information:</h2>
+        <br> <p style="font-size: 19px;">In the year 2006, COMSATS University Islamabad was established its Sahiwal Campus in a peaceful atmosphere on just before entering the main city.
+
+           <br><br> COMSATS University Islamabad, Sahiwal Campus always welcomes its visitors and guests. If you are planning to visit us, let us know before your visit so that we can help you to plan this visit as per your requirements. The visit will give you an overview of CUI- Sahiwal and provide the information about its culture, facilities and academic programs. <br><br> In case of group visit by college/institution, they are requested to send their request through proper channel/Head of the Institute.
+            
+           <br><br><br> Things to see and do at CUI Sahiwal Campus:
+           <br><br>
+           <ul style="font-size: 19px;margin-left: 20px;">
+            <li>Visiting the Departments / Research Centers / Laboratories </li>
+            <li>Visiting Digital Library / Montgomery Museum</li> 
+            <li>Public events at the Institute</li>
+           </ul>
+         </p>
+         <br>
+      </div>
+      <div class="right">
+        <img src="{%static '/img/c4.jpg' %}" style="width:380px;height:340px;">
+        <br><br><br>
+        <div class="boxright">
+        <h2>CUI SAHIWAL AT A GLANCE</h2>
+        <ul>
+          <li>Campus Established: 2006</li>
+          <li>  Total Area: 36 Acres</li>
+          <li>  Total no. of faculty: 214</li>
+          <li>  Total no. of PhD faculty: 66</li>
+          <li> Total Programs Offered: 16</li>
+          <li>  Enrolled Students: 3090</li>
+          <li>  Passed Out Students: 6238</li>
+        </ul>
+        <br><br>
+      </div>
+      </div>
+    </div>
+    </div>
+
+  </body>
+</html>

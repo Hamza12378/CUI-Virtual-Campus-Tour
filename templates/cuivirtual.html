@@ -1,0 +1,508 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href={% static '/css/cuivirtual.css' %}>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <style>
+    
+    </style>
+
+    <title>Sahiwal Virtual Tour</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid" style="background-color: #89858c;margin-top:-10px;">
+            <a class="navbar-brand" href="#">
+              <img src="{%static '/img/cuilogotext.png' %}" alt="Bootstrap" width="100%" height="60px" style="border: 3px solid #401c58;"/>
+            </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-2 me-2">
+              <a class="nav-link active" aria-current="pagee" href="{%url 'home'%}">Home</a>
+            </li>
+            <li class="nav-item ms-2 me-2">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item ms-2 me-2">
+              <a class="nav-link active" aria-current="page" href="#">Order</a>
+            </li>
+            <li class="nav-item ms-2 me-2">
+              <a class="nav-link active" aria-current="page" href="#"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item ms-2 me-2">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Us Moment</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <!---->
+    <div class="container text-center mt-2">
+      <div class="row">
+        <div class="accordion col h-80 overflow-y-scroll" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Entrance
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is
+                shown by default, until the collapse plugin adds the appropriate
+                classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                  class="btn btn-dark m-4"
+                  id="next1"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+          <!---->
+          <div class="accordion-item"  id="nexted2">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                After Entrance
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-secondary m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                  id="prev1"
+                >
+                  Prev
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                  id="next2"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Admission Office
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-secondary m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                  id="prev2"
+                >
+                  Prev
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                  id="next3"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                After Admission Office
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                  id="prev3"
+                >
+                  Prev
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="true"
+                  aria-controls="collapseFive"
+                  id="next4"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                A Block
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                  id="prev4"
+                >
+                  Prev
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="true"
+                  aria-controls="collapseSix"
+                  id="next5"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!---->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                W Block
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="true"
+                  aria-controls="collapseFive"
+                  id="prev5"
+                >
+                  Prev
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="true"
+                  aria-controls="collapseSeven"
+                  id="next6"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="false"
+                aria-controls="collapseSeven"
+              >
+                C Block
+              </button>
+            </h2>
+            <div
+              id="collapseSeven"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="true"
+                  aria-controls="collapseSix"
+                  id="prev6"
+                >
+                  Prev
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="true"
+                  aria-controls="collapseEight"
+                  id="next7"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+
+
+          <!---DONE TILL NOW -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEight"
+                aria-expanded="false"
+                aria-controls="collapseEight"
+              >
+               Ground
+              </button>
+            </h2>
+            <div
+              id="collapseEight"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="true"
+                  aria-controls="collapseSeven"
+                  id="prev7"
+                >
+                  Prev
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine"
+                  aria-expanded="true"
+                  aria-controls="collapseNine"
+                  id="next8"
+                >
+                  Next
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseNine"
+                aria-expanded="false"
+                aria-controls="collapseNine"
+              >
+                Way to MS
+              </button>
+            </h2>
+            <div
+              id="collapseNine"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is
+                hidden by default, until the collapse plugin adds the
+                appropriate classes that we use to style each element.
+                <br />
+                <button
+                  type="button"
+                  class="btn btn-dark m-4"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="true"
+                  aria-controls="collapseEight"
+                  id="prev8"
+                >
+                  Prev
+                </button>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" id="iframe-con"  >
+          <iframe
+            src="https://momento360.com/e/u/6c588a40a2a348d4a80e6df5014b873c?utm_campaign=embed&utm_source=other&heading=-9.78&pitch=6.42&field-of-view=50.85&size=medium&display-plan=true"
+            frameborder="0"
+            height="500vh"
+            width="700vw"
+            style=" border: 3px solid purple;"
+          ></iframe>
+        </div>
+      </div>
+     
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src={% static '/js/script.js' %} ></script>
+  </body>
+</html>

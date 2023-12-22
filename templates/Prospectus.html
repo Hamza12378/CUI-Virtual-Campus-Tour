@@ -1,0 +1,81 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'css/prospectus.css' %}">
+    <title>Prospectus</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <!---navbar and picture-->
+    <div class="banner">
+      <div class="navbar">
+        
+       
+        <img src="{%static '/img/1.jpg' %}" class='logo' />
+        <ul>
+          <li class="active"><a href="{%url 'home'%}">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Us Moment</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>COMSATS UNIVERSITY ISLAMBAD,SAHIWAL CAMPUS</h1>
+        <h3>Explore the Campus Virtually</h3>
+      </div>
+      <div class="button">
+        <a href={%url 'cuivirtual'%} class="btn">Take a guided Tour</a>
+      </div>
+    </div>
+    
+
+    <div class="beforeabout">
+
+      <a class="et_pb_button" title="Relevant Title" href="{%url 'facts'%}">Facts and History</a>
+      <a class="et_pb_button" title="Relevant Title" href="{%url 'ranking'%}">Ranking</a>
+      <a  class="et_pb_button" title="Relevant Title" href="{%url 'visitorsinfo'%}">Visitors Information</a>
+      <a id='prospects' class="et_pb_button" title="Relevant Title" href="{%url 'prospectus'%}">Prospectus</a>
+    
+    </div>
+    <br><br>
+
+    <div class="work">
+      <div class="left">
+        <br><br>
+        <h2 style="font-size: 34px; word-spacing: normal;color: #401c58;text-decoration: underline;">Prospectus:</h2>
+        <br> <p style="font-size: 19px;">Available online and free of cost </p>
+           <br>
+           <h4 style="font-size: 24px; word-spacing: normal;color: #401c58;">Undergraduate:</h4>
+         
+         <a href="http://ww2.comsats.edu.pk/ro/Undergraduate.aspx" style="font-size: 18px; color: blue;">Click here to Download Undergraduate Admission Guide</a>
+         <br>
+         <h4 style="font-size: 24px; word-spacing: normal;color: #401c58;">Graduate:</h4>
+         
+         <a href="http://ww2.comsats.edu.pk/ro/Graduate.aspx" style="font-size: 18px; color:blue;">Click here to Download Graduate Admission Guide</a>
+      </div>
+      <div class="right">
+        <img src="{%static '/img/c4.jpg' %}" style="width:380px;height:340px;">
+        <br><br><br>
+        <div class="boxright">
+        <h2>CUI SAHIWAL AT A GLANCE</h2>
+        <ul>
+          <li>Campus Established: 2006</li>
+          <li>  Total Area: 36 Acres</li>
+          <li>  Total no. of faculty: 214</li>
+          <li>  Total no. of PhD faculty: 66</li>
+          <li> Total Programs Offered: 16</li>
+          <li>  Enrolled Students: 3090</li>
+          <li>  Passed Out Students: 6238</li>
+        </ul>
+        <br><br>
+      </div>
+      </div>
+    </div>
+    </div>
+
+  </body>
+</html>

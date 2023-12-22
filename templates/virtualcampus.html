@@ -1,0 +1,102 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/virtualcampus.css' %}">
+    <title>Document</title>
+
+  </head>
+  <body>
+    
+<!--navbar start-->
+<div class="banner">
+  <div class="navbar">
+    <img src="{%static '/img/cuilogotext.png'%}" class="log" />
+    <ul>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href={%url 'about'%}>Contact</a></li>
+      <li><a href="index.html">Order</a></li>
+      <li><a href="{%url 'about'%}">About Us</a></li>
+      <li><a href="#">Us Moment</a></li>
+    </ul>
+  </div>
+
+<!---navbar end-->
+    <!--main -->
+    <div class="main">
+      <div class="left">
+        <h3 style="text-align: center; color:#401c58;font-size:100; ">COMSATS SAHIWAL</h3>
+        <div class="logotext">
+          <p style="font-size: 18px;text-align:center; font-family: 'Century Gothic', sans-serif; font-weight:bold">
+            <br />
+            Take a guided tour to see the best of COMSATS
+          </p>
+        </div>
+        <br>
+        <div id="faq">
+
+          <ul>
+            <li>
+              <input type="checkbox" checked />
+              <i></i>
+              <h2>Entrance</h2>
+              <p>
+                The entrance to COMSATS university is a sight to behold, with 
+                towering pillars and an ornate archway that welcomes visitors
+                 with a sense of prestige and tradition <br><br><br><br>
+              </p>
+              <div class="button">
+                <a href="#" class="btn">Prev</a>
+                <a href="#" class="btn">Next</a>
+              </div>
+            </li>
+         
+            <li>
+              <input type="checkbox" checked />
+              <i></i>
+              <h2>Admission Block</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Sapiente quasi, quia provident facere recusandae itaque
+                assumenda fuga veniam dicta earum dolorem architecto facilis
+                nisi pariatur.
+                <br><br><br><br>
+              </p>
+              <div class="button">
+                <a href="#" class="btn">Prev</a>
+                <a href="#" class="btn">Next</a>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" checked />
+              <i></i>
+              <h2>Thandi Gali</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam
+                quas placeat assumenda mollitia magni consequatur dolorum, quod
+                nihil distinctio aperiam officia alias! Voluptate dolore ex
+                officiis sit, magnam non a, eligendi pariatur aut, earum dolores
+                tenetur ipsam id illo deleniti. Laudantium deserunt eaque ipsam
+                voluptatum consequuntur voluptatibus sed minima ad accusamus
+                debitis eos similique laboriosam, molestiae? Consequatur neque
+                tempore quis. Eligendi, in ut aspernatur esse nesciunt libero.
+                <br><br><br><br>
+              </p>
+              <div class="button">
+                <a href="#" class="btn">Prev</a>
+                <a href="#" class="btn">Next</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <iframe width="1200px" height="650px" src="https://momento360.com/e/u/6c588a40a2a348d4a80e6df5014b873c?utm_campaign=embed&utm_source=other&heading=-9.78&pitch=6.42&field-of-view=50.85&size=medium&display-plan=true" frameborder="0"></iframe>
+   
+      </div>
+    </div>
+  </body>
+</html>

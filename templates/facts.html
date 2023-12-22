@@ -1,0 +1,151 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="{% static 'css/facts.css' %}">
+    <title>Facts and History</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <!--navbar and picture-->
+    <div class="banner">
+      <div class="navbar">
+        <img src="{%static '/img/1.jpg' %}" class='logo' />
+        <ul>
+          <li class="active"><a href="{%url 'home'%}">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Us Moment</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        <h1>COMSATS UNIVERSITY ISLAMBAD,SAHIWAL CAMPUS</h1>
+        <h3>Explore the Campus Virtually</h3>
+      </div>
+      <div class="button">
+        <a href={%url 'cuivirtual'%} class="btn">Take a guided Tour</a>
+      </div>
+    </div>
+    
+
+    <div class="beforeabout">
+      <a  id='factss' class="et_pb_button" title="Relevant Title" href="{%url 'facts'%}">Facts and History</a>
+      <a  class="et_pb_button" title="Relevant Title" href="{%url 'ranking'%}">Ranking</a>
+      <a  class="et_pb_button" title="Relevant Title" href="{%url 'visitorsinfo'%}">Visitors Information</a>
+      <a  class="et_pb_button" title="Relevant Title" href="{%url 'prospectus'%}">Prospectus</a>
+      
+
+    
+    </div>
+    <br><br>
+
+    <div class="work">
+      <div class="left">
+      <h2 style="font-size: 30px; word-spacing: normal;color: #401c58;text-decoration: underline;">Facts and History:</h2>
+      <br>
+      <p style="font-size: 18px;">COMSATS University Islamabad, Sahiwal Campus was established in <span style="color: #401c58; "><b>2006</b></span>. We set the sails with only one department and five faculty members but now we are growing with each passing moment. At the moment, around <span style="color: #401c58; "><b>3068</b></span> students are studying in <span style="color: #401c58; "><b>16</b></span> graduate and undergraduate programs in Management Sciences, Computer Sciences, Bio Sciences, Mechanical Engineering, Electrical Engineering, Civil Engineering and Mathematics. <br><br> Another testimonial of our worth is the trust of people on us which is multiplying day by day. With such shrug of trust from the parents and students, we have established Civil Engineering Department which will offer admissions in coming semester.
+
+       </p>
+       <img src="{%static '/img/campus3.jpg' %}" style="border:2px solid black;align-items: center; width:500px;height: 300px;margin-left: 130px;" alt="">
+       
+      </div>
+      <div class="right">
+        <img src="{%static '/img/c4.jpg' %}" style="width:380px;height:340px;">
+        <br><br><br>
+        <div class="boxright">
+        <h2>CUI SAHIWAL AT A GLANCE</h2>
+        <br><br>
+        <ul style="margin: 10px;">
+          <li>Campus Established: 2006</li>
+          <li>  Total Area: 36 Acres</li>
+          <li>  Total no. of faculty: 214</li>
+          <li>  Total no. of PhD faculty: 66</li>
+          <li> Total Programs Offered: 16</li>
+          <li>  Enrolled Students: 3090</li>
+          <li>  Passed Out Students: 6238</li>
+        </ul>
+        <br><br>
+      </div>
+      </div>
+    </div>
+    </div>
+<h3 style="font-size: 22px;font-family: Arial, Helvetica, sans-serif;margin-left: 10px;">Some facts and figures about CUI Sahiwal Campus are as follows:</h3>
+<div class="row">
+  <div class="column ">
+    <h4 style="font-size: 23px;font-family: Arial, Helvetica, sans-serif;font-weight: 400px;margin: 10px;">Campus:</h4>
+    <table>
+      <tr>
+        <td>Campus Established</td>
+        <td>2006</td>
+       
+      </tr>
+      <tr>
+        <td>Academic Blocks</td>
+        <td>03</td>
+       
+      </tr>
+      <tr>
+        <td>Faculty Blocks</td>
+        <td>01</td>
+      
+      </tr>
+      <tr>
+        <td>Hostels (Outside Of Campus)</td>
+        <td>05</td>
+      
+      </tr>
+    </table>
+  </div>
+  <div class="column" style="width:30%">
+    <h4 style="font-size: 23px;font-family: Arial, Helvetica, sans-serif;font-weight: 400px;margin: 10px;">Academic:</h4>
+    <table>
+      <tr>
+        <td>Total Faculty At Sahiwal Campus</td>
+        <td>214</td>
+      </tr>
+      <tr>
+        <td>PhD Faculty At Sahiwal Campus</td>
+        <td>66</td>
+      </tr>
+      <tr>
+        <td>Academic Department</td>
+        <td>08</td>
+      </tr>
+      <tr>
+        <td>Under Graduate Programs Offered</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td> Graduate Programs Offered</td>
+        <td>05</td>
+      </tr>
+      <tr>
+        <td>Total Students Enrolled	</td>
+        <td>2945</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<br><br>
+<div class="column" style="width: 40%;">
+    <h4 style="font-size: 23px;font-family: Arial, Helvetica, sans-serif;font-weight: 400px;margin: 10px;">Graduates(Till Fall 2021)</h4>
+    <table>
+      <tr>
+        <td>Total Passed Out Students</td>
+        <td>6238</td>
+      </tr>
+      <tr>
+        <td> Total Passed Out Male Students	</td>
+        <td>4448</td>
+      </tr>
+      <tr>
+        <td>Total Passed Out Female Students</td>
+        <td>1790</td>
+      </tr>
+    </table>
+  </div>
+  </body>
+</html>
