@@ -12,7 +12,6 @@ Start your journey on our dedicated webpage, where you'll find comprehensive inf
 User-friendly interface for easy navigation and a seamless experience. <br>
 
 **Login and Admin Portal:**
-
 For enhanced control and personalized experiences, users can log in to their accounts.
 Admins have access to a secure portal where they can manage content, update information, and monitor user engagement.<br>
 **360-Degree Virtual Tour:**
