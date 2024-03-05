@@ -5,7 +5,6 @@
 Embark on an immersive journey through our university's vibrant campus from the comfort of your device with our Virtual Campus Exploration Platform. This innovative project combines cutting-edge technology, stunning 360-degree images, and user-friendly design to offer an unparalleled experience.
 
 # Features:
-
 **Interactive Webpage:**
 
 Start your journey on our dedicated webpage, where you'll find comprehensive information about our university, its history, and the various departments it houses.
