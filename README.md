@@ -2,7 +2,7 @@
 
 # Description:
 
-Embark on an immersive journey through our university's vibrant campus from the comfort of your own device with our Virtual Campus Exploration Platform. This innovative project combines cutting-edge technology, stunning 360-degree images, and user-friendly design to offer an unparalleled experience.
+Embark on an immersive journey through our university's vibrant campus from the comfort of your device with our Virtual Campus Exploration Platform. This innovative project combines cutting-edge technology, stunning 360-degree images, and user-friendly design to offer an unparalleled experience.
 
 # Features:
 
