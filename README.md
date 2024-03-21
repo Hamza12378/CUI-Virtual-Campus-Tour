@@ -28,7 +28,7 @@ Detailed descriptions accompany each department, offering insights into academic
 ![1689415842915](https://github.com/Hamza12378/CUI-Virtual-Campus-Tour/assets/111439617/60a54b03-5058-414b-9a63-38e2f234a06b)
 
 # How It Works:
-
+ 
 1. Navigate through the platform effortlessly, either as a guest or by creating a personalized account. <br>
 2. Admins have the power to update content regularly, ensuring that users receive the most accurate and up-to-date information.<br>
 3. Explore departments and campus landmarks by clicking on interactive hotspots within the 360-degree images.<br>
