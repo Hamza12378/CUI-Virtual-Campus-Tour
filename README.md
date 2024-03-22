@@ -6,7 +6,7 @@ Embark on an immersive journey through our university's vibrant campus from the 
  
 # Features: 
 **Interactive Webpage:**
-
+ 
 Start your journey on our dedicated webpage, where you'll find comprehensive information about our university, its history, and the various departments it houses.
 User-friendly interface for easy navigation and a seamless experience. <br>
 
